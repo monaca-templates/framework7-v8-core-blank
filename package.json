@@ -1,13 +1,13 @@
 {
   "name": "framework7-v8-core-blank",
   "private": true,
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "framework7-v8-core-blank",
   "repository": "",
   "license": "UNLICENSED",
   "engines": {
-      "node": "~18.16.0",
-      "npm": "~9.5.0"
+    "node": "~18.16.0",
+    "npm": "~9.5.0"
   },
   "scripts": {
     "start": "npm run dev",
@@ -44,10 +44,10 @@
     "vite": "^4.3.9"
   },
   "cordova": {
-      "plugins": {
-        "cordova-plugin-splashscreen": {},
-        "monaca-plugin-monaca-core": {},
-        "cordova-plugin-statusbar": {}
-      }
+    "plugins": {
+      "cordova-plugin-splashscreen": {},
+      "monaca-plugin-monaca-core": {},
+      "cordova-plugin-statusbar": {}
+    }
   }
 }
